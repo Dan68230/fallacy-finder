@@ -19,6 +19,7 @@ body {
 .app-header {
   text-align: center;
   margin-bottom: 28px;
+  cursor: pointer;
 }
 
 .app-header h1 {
@@ -31,6 +32,131 @@ body {
   margin: 6px 0 0;
   color: #9a9aa2;
   font-size: 0.95rem;
+}
+
+/* ---------- Home screen ---------- */
+
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 26px;
+  padding: 20px 8px 0;
+}
+
+.home-tagline {
+  color: #c9c9cf;
+  font-size: 1.02rem;
+  line-height: 1.55;
+  max-width: 460px;
+  margin: 0;
+}
+
+.home-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: #f2f2f2;
+  color: #0d0d0f;
+  border: none;
+}
+
+.primary-btn:hover {
+  background: #ffffff;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #f2f2f2;
+  border: 1px solid #3a3a42;
+}
+
+.secondary-btn:hover {
+  background: #18181b;
+}
+
+.home-meta {
+  display: flex;
+  gap: 8px;
+  color: #71717a;
+  font-size: 0.85rem;
+}
+
+/* ---------- Learn screen ---------- */
+
+.learn-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.back-btn {
+  align-self: flex-start;
+  background: transparent;
+  border: none;
+  color: #9a9aa2;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.back-btn:hover {
+  color: #f2f2f2;
+}
+
+.learn-intro {
+  color: #c9c9cf;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.fallacy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fallacy-item {
+  background: #18181b;
+  border: 1px solid #2a2a30;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.fallacy-name {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.fallacy-definition {
+  margin: 0;
+  color: #b9b9c0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.learn-start-btn {
+  align-self: center;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 8px;
 }
 
 /* ---------- Quiz layout ---------- */
