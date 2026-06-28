@@ -67,6 +67,26 @@ const fallacies = [
     name: 'Anecdotal',
     definition: 'Using a personal story or isolated example as if it were strong evidence, while ignoring broader, more reliable data.',
   },
+  {
+    name: 'Motte-and-Bailey',
+    definition: 'Defending an extreme, hard-to-support claim (the "bailey") by retreating to a much more modest, easily-defensible version of it (the "motte") whenever challenged — then sliding back to the extreme claim once the pressure is off.',
+  },
+  {
+    name: 'Appeal to Ignorance',
+    definition: 'Arguing that a claim must be true because it hasn\'t been proven false (or must be false because it hasn\'t been proven true) — absence of evidence is treated as evidence of absence (or presence).',
+  },
+  {
+    name: 'Appeal to False Authority',
+    definition: 'Citing someone as proof of a claim when that person has no real expertise or credentials in the relevant field — fame or authority in one area doesn\'t transfer to another.',
+  },
+  {
+    name: 'Nutpicking',
+    definition: 'Cherry-picking the most extreme, fringe, or ridiculous member of a group and presenting them as representative of that entire group\'s views.',
+  },
+  {
+    name: 'No True Scotsman',
+    definition: 'Responding to a counterexample to a generalization by redefining the group to conveniently exclude it ("no TRUE [group member] would do that"), rather than admitting the generalization was wrong.',
+  },
 ]
 
 export default fallacies

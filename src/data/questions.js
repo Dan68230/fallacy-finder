@@ -272,6 +272,77 @@ const questions = [
     "answer": "Tu Quoque",
     "options": ["Tu Quoque", "Ad Hominem", "Red Herring", "Straw Man"],
     "explanation": "Tu quoque — pointing out Pete's past failures doesn't address whether the advice to study more is actually good advice. The advice stands on its own regardless of who gives it."
+  },
+  {
+    "format": "imessage",
+    "content": {
+      "groupname": "Campus Politics",
+      "messages": [
+        { "sender": "Sasha", "text": "All I'm saying is we should have more compassion for undocumented immigrants", "side": "left" },
+        { "sender": "Marcus", "text": "so you're for open borders and no enforcement at all?", "side": "right" },
+        { "sender": "Sasha", "text": "what?? no, I never said that, I just said we should be kind to people", "side": "left" },
+        { "sender": "Marcus", "text": "ok fair, that's reasonable", "side": "right" },
+        { "sender": "Sasha", "text": "right, and that's why we need to abolish ICE and open the borders completely", "side": "left" }
+      ]
+    },
+    "answer": "Motte-and-Bailey",
+    "options": ["Motte-and-Bailey", "Straw Man", "False Dichotomy", "Slippery Slope"],
+    "explanation": "Motte-and-bailey — Sasha retreats to the easy-to-defend claim ('just be kind') when challenged, then slides back to the much more extreme, hard-to-defend claim ('abolish ICE, open all borders') once the pressure is off."
+  },
+  {
+    "format": "discord",
+    "content": {
+      "server": "Paranormal Talk",
+      "channel": "#ghost-stories",
+      "username": "MoonlitWanderer",
+      "avatar": "MW",
+      "text": "Nobody has ever scientifically proven that ghosts DON'T exist. Until someone disproves it completely, I'm going to keep believing they're real."
+    },
+    "answer": "Appeal to Ignorance",
+    "options": ["Appeal to Ignorance", "Appeal to Nature", "Circular Reasoning", "Hasty Generalization"],
+    "explanation": "Appeal to ignorance — the lack of proof that ghosts don't exist isn't evidence that they do. Absence of disproof is not the same as proof."
+  },
+  {
+    "format": "tweet",
+    "content": {
+      "username": "FitLifeOfficial",
+      "handle": "@fitlife_official",
+      "avatar": "FL",
+      "text": "My favorite actor from that superhero movie says this detox tea cured his fatigue in 3 days. He's in incredible shape so clearly he knows what he's talking about. Linking it below.",
+      "likes": "9.6K",
+      "retweets": "2.4K"
+    },
+    "answer": "Appeal to False Authority",
+    "options": ["Appeal to False Authority", "Appeal to Authority", "Appeal to Popularity", "Appeal to Nature"],
+    "explanation": "Appeal to false authority — being a fit, famous actor gives him zero actual expertise in nutrition or medicine. His celebrity status is being used to substitute for real evidence."
+  },
+  {
+    "format": "tweet",
+    "content": {
+      "username": "AgriNewsDaily",
+      "handle": "@agrinewsdaily",
+      "avatar": "AD",
+      "text": "Found this vegan activist on TikTok saying anyone who eats meat should be jailed for 'murder.' This is exactly what the vegan movement actually believes deep down.",
+      "likes": "5.1K",
+      "retweets": "1.8K"
+    },
+    "answer": "Nutpicking",
+    "options": ["Nutpicking", "Hasty Generalization", "Straw Man", "Bandwagon"],
+    "explanation": "Nutpicking — one fringe activist's extreme statement is being held up as if it represents the views of an entire, much more diverse movement."
+  },
+  {
+    "format": "imessage",
+    "content": {
+      "groupname": "Sunday Dinner Group",
+      "messages": [
+        { "sender": "Grandma", "text": "Your cousin says he's Christian but he cheated on his taxes again this year", "side": "left" },
+        { "sender": "You", "text": "I mean, people make mistakes, that doesn't mean much on its own", "side": "right" },
+        { "sender": "Grandma", "text": "well a TRUE Christian would never do something so dishonest. He's not really one if he behaves like that.", "side": "left" }
+      ]
+    },
+    "answer": "No True Scotsman",
+    "options": ["No True Scotsman", "Circular Reasoning", "False Dichotomy", "Ad Hominem"],
+    "explanation": "No true Scotsman — instead of accepting that a Christian can still act dishonestly, Grandma redefines 'true Christian' on the spot to exclude him, protecting the generalization from any counterexample."
   }
 ]
 
